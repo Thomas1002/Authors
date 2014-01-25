@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mirabellehegnet.authors.MainActivity" >
+
+    <item android:id="@+id/jabberwocky"
+        android:title="@string/jabber"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/angrave"
+        android:title="@string/angrave"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/roundball"
+        android:title="@string/roundball"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
